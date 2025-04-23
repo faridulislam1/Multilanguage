@@ -18,3 +18,4 @@ Route::get('/', function () {
 });
 
 Route::get('lang/{lang}',[LanguageController::class, 'switchLang'])->name('lang.switch');
+Route::post('',[LanguageController::class, ''])->name('');
